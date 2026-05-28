@@ -87,10 +87,10 @@
 
         raise_layer {
             bindings = <
-&kp F1  &kp HOME            &kp UP         &kp END        &kp F5         &kp LC(A)           &kp F7     &kp F8         &kp F9    &kp F10    &kp F11  &kp F12
-&none   &kp LEFT            &kp DOWN       &kp RIGHT      &none          &none               &kp PG_UP  &kp HOME       &kp UP    &kp END    &none    &kp A
-&none   &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &kp LS(SPACE)  &kp BACKSPACE  &kp LS(NUMBER_2)    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-                                           &mo 2          &mo LWR        &kp RC(ENTER)       &kp ENTER  &kp BACKSPACE  &mo 3
+&kp F1     &kp HOME                &kp UP             &kp END        &kp F5         &kp LC(A)           &kp F7     &kp F8         &kp F9    &kp F10    &kp F11  &kp F12
+&none      &kp LEFT                &kp DOWN           &kp RIGHT      &none          &none               &kp PG_UP  &kp HOME       &kp UP    &kp END    &none    &kp A
+&kp LCTRL  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT))  &kp LS(SPACE)  &kp BACKSPACE  &kp LS(NUMBER_2)    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
+                                                      &mo 2          &mo LWR        &kp RC(ENTER)       &kp ENTER  &kp BACKSPACE  &mo 3
             >;
 
             sensor-bindings =
